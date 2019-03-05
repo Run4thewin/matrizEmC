@@ -1,0 +1,64 @@
+
+
+/////////////////////////////////////////
+//EXERCICIO 2
+/*Nomes: Gabriel Ferreira*/
+
+
+#include <stdio.h>
+#include <math.h>
+
+void matrix(){
+
+    int m[3][3];
+
+
+    for(int i = 0; i < 3; i++){
+
+            for(int j = 0; j < 3; j++){
+
+                printf("Digite o valor da posicao %i %i da matriz ", i, j);
+                scanf( "%i", &m[i][j]);
+
+            }
+
+    }
+
+
+
+
+    for(int i = 0; i < 3; i++){
+
+            for(int j = 0; j < 3; j++){
+
+            int c = m[i][j];
+                printf( " %i ", c);
+
+            }
+
+            printf("\n");
+    }
+
+
+
+            printf("\n");
+
+
+
+    for(int i = 0; i < 3; i++){
+
+            for(int j = 0; j < 3; j++){
+
+            int raiz = pow(m[i][j], 3);
+                printf( " %i ", raiz);
+
+            }
+
+            printf("\n");
+    }
+}
+
+void main(){
+    matrix();
+
+}
