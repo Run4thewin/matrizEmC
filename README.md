@@ -1,2 +1,2 @@
 # matrizEmC
-Exercicio de Matriz em feito na linguagem C
+Exercicio de Matriz feito na linguagem C ( Matrix Exercise made in C language )
